@@ -2,7 +2,16 @@ body{
     font-family: 'Yellowtail', cursive;
 }
 h1{
-    font-size: 50 px;
+    font-size: 80 px;
+}
+h3{
+    font-size: 50px;
+}
+div.left>p{
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+div.left>p:hover{
+    background-color: rgb(247, 228, 228);
 }
 #my{
     color: rgb(161, 130, 91);
@@ -15,5 +24,8 @@ h1{
 
 }
 .left img{
+    position:relative;
+    left: 20px;
+    top: 20px;
     width: 100%;
 }
