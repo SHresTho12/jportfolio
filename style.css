@@ -1,5 +1,6 @@
 body{
     font-family: 'Yellowtail', cursive;
+    margin: 0px;
 }
 h1{
     font-size: 80 px;
@@ -7,7 +8,7 @@ h1{
 h3{
     font-size: 50px;
 }
-div.left>p{
+p{
     font-family: 'Verdana', Geneva, Tahoma, sans-serif;
 }
 div.left>p:hover{
@@ -29,3 +30,84 @@ div.left>p:hover{
     top: 20px;
     width: 100%;
 }
+.top{
+    background-image: url("developer-portfolio/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link{
+    text-decoration: none;
+    font-family: monospace;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding:10px 20px;
+  background-color: orange;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+  
+}
+.lol{
+    color: gold;}
+    .middle{
+        background-image: url("developer-portfolio/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .report{
+        text-decoration: none;
+        font-family: monospace;
+        border: 2px solid orange;
+        border-radius: 5px;
+        padding:10px 20px;
+      background-color: orange;
+      color: aliceblue;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    #head{
+        color: red;
+        text-align: left;
+    }
+    #skill{
+        color: rgb(126, 173, 55) ;
+    }
+    #kill{
+        color: lightpink;
+    }
+    .lleft{
+        width: 40%;
+        background-color: whitesmoke;
+        height: 250px;
+        float: left;
+        padding: 10px;
+        box-shadow: 10px 10px 40px lightsteelblue ;
+        
+        border-radius: 20px;
+        margin: 20px 30px; 
+
+    }
+    #list{
+        font-family: initial;
+    }
+    .last{
+        background-image: url("developer-portfolio/exp-bg.png");
+        background-repeat: no-repeat;
+    }
+    #exp{
+        border-left: 10px solid ;
+        border-image: linear-gradient(180deg, green,tomato);
+        border-image-slice: 1;
+    }
+    #sk{
+        border-left: 10px solid ;
+        border-image: linear-gradient(180deg, blue,tomato);
+        border-image-slice: 1;
+    }
+    footer p{
+        font-size: 5px;
+        color: midnightblue;
+        text-align: center;
+    }
